@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", sans-serif;
+  
 }
 
 html {
@@ -295,6 +296,41 @@ canvas {
   background: rgba(56, 189, 248, 0.08);
 }
 
+.project-type {
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.project-type.personal {
+  color: #22c55e;
+}
+
+.project-type.hackathon {
+  color: #38bdf8;
+}
+
+.hackathon-name {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.project-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 18px;
+  background: #6c7174;
+  color: #0f172a;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.project-btn:hover {
+  background: rgb(194, 41, 41);
+}
 /* ===== Contact Section FIXED ===== */
 .contact {
   padding: 100px 10%;
